@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06545eb4-f429-42dc-9d89-d96d507c6db4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ss/pku/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ss/pku/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ss/pku/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ss/pku/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ss/pku/controller/SeckillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ss/pku/controller/SeckillController.java" afterDir="false" />
+    <list default="true" id="06545eb4-f429-42dc-9d89-d96d507c6db4" name="Default Changelist" comment="security setting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,7 +98,7 @@
         <counts>
           <entry key="htm" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
           <entry key="properties" value="2" />
@@ -110,7 +108,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="2" />
@@ -122,7 +120,7 @@
           <entry key="java" value="13" />
           <entry key="md" value="20" />
           <entry key="properties" value="44" />
-          <entry key="txt" value="26" />
+          <entry key="txt" value="56" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
@@ -130,7 +128,7 @@
         <counts>
           <entry key="JAVA" value="13" />
           <entry key="Markdown" value="20" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="PLAIN_TEXT" value="56" />
           <entry key="Properties" value="44" />
           <entry key="XML" value="5" />
         </counts>
@@ -148,7 +146,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/utils/LogUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -158,6 +156,15 @@
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/utils/PassWordUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -205,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaojie/redis/OrderKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaojie/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaojie/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaojie/service/GoodsService.java" />
@@ -256,6 +262,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ss/pku/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ss/pku/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ss/pku/controller/SeckillController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ss/pku/utils/PassWordUtil.java" />
       </list>
     </option>
   </component>
@@ -353,15 +360,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pku" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pku" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,7 +403,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610511763354" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610550862382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../云计算/moti-cloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -481,7 +479,7 @@
       <workItem from="1610440339304" duration="10691000" />
       <workItem from="1610452613316" duration="366000" />
       <workItem from="1610453081687" duration="8522000" />
-      <workItem from="1610545247788" duration="1570000" />
+      <workItem from="1610545247788" duration="2401000" />
     </task>
     <task id="LOCAL-00001" summary="秒杀基本逻辑业务完成">
       <created>1591017565645</created>
@@ -518,7 +516,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610545772485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add log manage">
+      <created>1610550189818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550189818</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add log manage">
+      <created>1610550250569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550250569</updated>
+    </task>
+    <task id="LOCAL-00008" summary="security setting">
+      <created>1610550900116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550900116</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -554,7 +573,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126033000" />
+    <option name="totallyTimeSpent" value="126864000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -620,10 +639,11 @@
     <MESSAGE value="秒杀业务逻辑完成" />
     <MESSAGE value="fix test file" />
     <MESSAGE value="update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
+    <MESSAGE value="add log manage" />
+    <MESSAGE value="security setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="security setting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upload/image-20200604000433842.png" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/rabbitmq/MQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -905,6 +918,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/utils/LogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -914,6 +934,13 @@
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ss/pku/utils/PassWordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
