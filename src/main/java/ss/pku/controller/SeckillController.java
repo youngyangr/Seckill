@@ -1,5 +1,6 @@
 package ss.pku.controller;
 
+import org.slf4j.Logger;
 import ss.pku.access.AccessLimit;
 import ss.pku.pojo.GoodsVo;
 import ss.pku.pojo.OrderInfo;
@@ -19,6 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import ss.pku.utils.LogUtils;
 
 import java.util.HashMap;
 import java.util.List;
@@ -33,6 +35,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("/seckill")
 public class SeckillController implements InitializingBean {
+    private Logger logger = LogUtils.getInstance(GoodsController.class);
     @Autowired
     private GoodsService goodsService;
 
@@ -61,6 +64,7 @@ public class SeckillController implements InitializingBean {
      */
     @RequestMapping("/do_seckill")
     public String seckill(Model model, User user, @RequestParam("goodsId")long goodsId) {
+        logger.info("用户秒杀操作");
         model.addAttribute("user",user);
 
         if(user == null) {
